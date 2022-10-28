@@ -5,28 +5,30 @@
 ![example workflow](https://github.com/sgkang/higp_em_physics/actions/workflows/python-package-conda.yml/badge.svg)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
 
-# 
+# The Physics of Geophysical Prospecting Methods: Resistivity and Controlled Source vs Natural EM methods
 
 **Instructor**
 - [Seogi Kang](https://github.com/sgkang) 
 
 
-## Summary
+## Assumptions about the course
 
-XXX
+This course is for 3rd/4th year students in geoscience.
+Basic background of physics are not preferred, but not required. 
+In this repository, there are Apps, which provide hands-on examples that students can explore the physics of EM geophysicsal proppecting methods. The apps developed by Jupyter Notebooks, Python and SimPEG are used, but strong software background is not required.
 
-## Prerequisites
+## Learning goals
 
-**Software**
+- Understand electrical resistivity and its linkage to geologic units.
+- Understand physical principles of Electromagnetic (EM) methods
+    - Charge build-up (or current channeling, galvanic currents)
+    - EM induction
+- Identify difference between controlled-source EM and magnetotellurics (MT)
+- Identify all EM methods are governed by the same physical principles
+- Understand survey setup of EM methods and data
+- Understand sensitivity of EM methods to conductors & resistors
 
-* Some knowledge of Python is assumed.
-* All coding will be done in Jupyter notebooks. I'll explain how they work
-  briefly but it will help if you've used them before.
-* We will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
-  [ipywidgets](https://ipywidgets.readthedocs.io/)
-  You don't need to be an expert in these tools but some familiarity will help.
-
-### Step 1: Download the MT inversion tutorial
+### Step 1: Download the EM physics tutorial
 
 To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
 
@@ -71,7 +73,7 @@ pip install -e .
 cd ..
 ```
 ```
-cd higp-em-2022
+cd higp_em_physics
 ```
 
 ### Step 4: Launching the notebooks
@@ -82,20 +84,11 @@ jupyter lab
 ```
 Jupyter will then launch in your web-browser.
 
+## Resources for open-source geophysical software, `SimPEG`
 
-## Resources
-
-**Resources on MT processing and inversions**
-- [MTH5](https://github.com/kujaku11/mth5)
-- [MTpy](https://github.com/MTgeophysics/mtpy)
-- [aurora](https://github.com/simpeg/aurora)
-- [SimPEG](https://www.simepg.xyz)
-
-**Resources on SimPEG**
 - [Docs](http://docs.simpeg.xyz/)
 - [Discourse](http://simpeg.discourse.group/)
 - [Slack](http://slack.simpeg.xyz/)
-
 
 ## License
 
