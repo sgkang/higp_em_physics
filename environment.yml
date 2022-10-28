@@ -13,5 +13,3 @@ dependencies:
   - jupyterlab
   - ipympl
   - ipywidgets
-  - pip:
-    - https://github.com/simpeg/simpeg.git@tiled_fdem_nsem
