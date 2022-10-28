@@ -33,12 +33,11 @@ jobs:
         python --version
         conda env create -f environment.yml
         source activate em
+        cd ..
         git clone https://github.com/simpeg/simpeg.git
         cd simpeg
         git checkout -f tiled_fdem_nsem
         pip install -e .
-        cd ..
-        rm -rf simpeg
         pip install -r requirements_dev.txt
     - name: Run Tests
       shell: bash
