@@ -39,10 +39,9 @@ jobs:
         git checkout -f tiled_fdem_nsem
         pip install -e .
         pip install -r requirements_dev.txt
-        cd higp_em_geophysics
+
     - name: Run Tests
       shell: bash
       run: |
         source activate em
-        conda list
         pytest .
