@@ -10,6 +10,8 @@
 **Instructor**
 - [Seogi Kang](https://github.com/sgkang) 
 
+**Lecture slides**
+- [Download slides](https://github.com/sgkang/higp_em_physics/raw/master/course_slides/hawaii-lecture-2022-seogi-kang.pdf)
 
 ## Assumptions about the course
 
