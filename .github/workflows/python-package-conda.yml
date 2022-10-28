@@ -32,6 +32,7 @@ jobs:
       run: |
         python --version
         conda env create -f environment.yml
+        source activate em
         git clone https://github.com/simpeg/simpeg.git
         cd simpeg
         git checkout -f tiled_fdem_nsem
